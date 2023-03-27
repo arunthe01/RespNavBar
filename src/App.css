@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+.App{
+  max-width:100vw;
+  height:10vh;
+  background:linear-gradient(rgb(57, 52, 52),rgb(95, 91, 91));
+  margin: 0px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 50vw;
+
+}
+
+.NavItem{
+  cursor: pointer;
+}
+
+
+.searchBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  width:30px;
+}
+
+.searchBar{
+  
+  outline: none;
+  width:30vw;
+  height: 20px;
+  border-radius: 10px;
+  margin: 0px;
+  background-color: black;
+  color: white;
+  padding:10px;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+}
+
+.searchBar:hover{
+  box-shadow: 0px 0px 10px white;
+}
+
+input{
+  background-color: black;
+  color: white;
+  margin-left: 3px;
+ 
+  width:90%;
+  outline: none;
+  border: 0px;
+  height: 20px;
+  border-radius: 5px;
+
+}
+
+
+
+body{
+  background-color: black;
+}
+
